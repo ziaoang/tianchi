@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;my.group.udf.Sum.java&apos; to &apos;MySum.java&apos;&#x0A;- Original project: &apos;udf&apos;&#x0A;- Original element: &apos;my.group.udf.Sum.java&apos;&#x0A;- Renamed element: &apos;my.group.udf.MySum.java&apos;" description="Rename compilation unit &apos;Sum.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;my.group.udf{Sum.java" name="MySum.java" references="false" stamp="1430979035743" version="1.0"/>
+</session>

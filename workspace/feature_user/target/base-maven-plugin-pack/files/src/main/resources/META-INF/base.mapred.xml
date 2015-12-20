@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapred>
+    <!-- profile -->
+    <baseId>10c8a91d423dc190ee6cdd8748465545</baseId>
+    <projectId>2521</projectId>
+    <resourceName>feature_u_18</resourceName>
+    <idePath>工作流/mr/u</idePath>
+
+    <!-- classes -->
+    <jobLauncher>my.group.mapreduce.JobLauncher</jobLauncher>
+    <mapper>my.group.mapreduce.MyMapper</mapper>
+    <reducer>my.group.mapreduce.MyReducer</reducer>
+
+    <!--task-->
+    <mapOutputKey>user_id:string</mapOutputKey>
+    <mapOutputValue>behavior_type:bigint,dayGap:bigint,hour:bigint</mapOutputValue>
+
+    <!-- tables -->
+    <inputTables>
+        <table>
+            <name>tianchi_mobile_recommend_train_user</name>
+        </table>
+    </inputTables>
+    <outputTable>
+        <name>feature_u_18</name>
+    </outputTable>
+</mapred>
